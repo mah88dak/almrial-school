@@ -1,0 +1,52 @@
+.goals {
+  background-image:
+    linear-gradient(var(--primaryOP83-color), var(--primaryOP83-color)), url(../../img/goals/goals-bgi.png);
+  background-repeat: repeat, no-repeat;
+  background-size: cover;
+  background-position: center -100px;
+}
+
+.goals .head h3,
+.goals .head h5 {
+  color: var(--white-color);
+}
+
+.goals .numberBoxs {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 2rem;
+}
+
+.goals .numberBoxs .card {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  color: var(--white-color);
+}
+
+.goals .numberBoxs .card .num {
+  font-size:    3rem;
+  line-height: 1;
+}
+.goals .numberBoxs .card .title {
+ color: var(--dark3-color);
+ font-size: 1.4rem;
+}
+/* xsm */
+@media (max-width:576px) {
+  .goals .numberBoxs {
+    grid-template-columns: repeat(1, 1fr);
+    justify-items: center;
+  }
+  .goals {
+    background-position: center ;
+  }
+}
+
+/* sm md lg */
+@media (min-width:576px)  and (max-width:1200px) {
+  .goals .numberBoxs {
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
+  }
+}

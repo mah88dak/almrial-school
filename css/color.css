@@ -1,0 +1,15 @@
+:root{
+  --primary-color: #59C6BC;
+  --primaryOP83-color: hsla(174, 49%, 56%, 0.83);
+  --primary1-color: #2D98A2;
+  --secondary-color: #FFF568;
+  --secondaryOp80-color: rgba(255, 245, 102, 0.8);
+  --secondary1-color: #EDBF47;
+  --orange-color: #EB774C;
+  --white-color: #fff;
+  --light-color: #FAFAFA;
+  --dark-color: #4B4B4B;
+  --dark1-color: #999999;
+  --dark3-color: #505050;
+  --blueLight-color: #EEF6F6;
+}

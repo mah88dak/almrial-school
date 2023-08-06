@@ -1,0 +1,33 @@
+footer {
+  background-color: #BDF6E3;
+  text-align: center;
+}
+footer h2 {
+  font-size: 3rem;
+}
+footer p {
+  width: 700px;
+  margin: auto;
+}
+
+footer .socail-links a{
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 50%;
+  border: 1px solid;
+  display: inline-grid;
+  place-items: center;
+  margin: 1rem 0.3rem;
+  font-size: 1.3rem;
+  transition: 0.5s;
+}
+
+footer .socail-links a:hover {
+  transform: rotate(360deg);
+}
+/* xsm - sm - md */
+@media (max-width :992px) {
+  footer p {
+    width: 100%;
+  }
+}

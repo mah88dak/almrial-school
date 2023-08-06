@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;500;600;700&display=swap');
+
+@import "./color.css";
+@import './reset.css';
+@import './gloable.css';
+@import './sections/header.css';
+@import './sections/hero.css';
+@import './sections/fea.css';
+@import './sections/last-news.css';
+@import './sections/goals.css';
+@import './sections/parent.css';
+@import './sections/concat.css';
+@import './sections/map.css';
+@import './sections/footer.css';
+
