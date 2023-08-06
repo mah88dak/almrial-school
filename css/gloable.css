@@ -65,7 +65,7 @@ section ,footer{
   place-content: center;
   gap: 4rem;
 
-  animation: lds-spinner 2s 5s both;
+  animation: d-none 1s 3s both;
 }
 .loading .shape {
   transform: scale(3);
@@ -146,6 +146,15 @@ section ,footer{
   }
   100% {
     opacity: 0;
+  }
+}
+@keyframes d-none {
+  0% {
+   transform: translate(0);
+  }
+  100% {
+    transform: translate(-100% , 0);
+
   }
 }
 
